@@ -405,8 +405,8 @@ footer .social-links a:nth-child(2) svg path {
 
 #backToTop {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 3rem;
+  right: 3rem;
 
   opacity: 0;
   visibility: hidden;
@@ -573,5 +573,10 @@ footer .social-links a:nth-child(2) svg path {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  #backToTop {
+    bottom: 4rem;
+    right: 6rem;
   }
 }
